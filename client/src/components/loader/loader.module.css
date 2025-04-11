@@ -1,0 +1,23 @@
+.loaderWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.spinner{
+    margin-bottom: 20px;
+    animation: spin 1s linear infinite;
+}
+
+.message{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,25 @@
+.subHeading{
+    max-width: 350px;
+    margin: 15px auto;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(224, 221, 221, 0.836);
+    line-height: 1.5;
+}
+
+.optInput{
+    width:3ch;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(34, 33, 33);
+}
+
+.optInput:focus{
+    border: 1px solid rgb(83, 83, 190);
+}

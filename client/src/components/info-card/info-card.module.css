@@ -1,0 +1,20 @@
+.infoCardWrapper{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.infoCardWrapper img{
+    border-radius: 50%;
+    border: 3px solid royalblue;
+}
+
+.infoCardWrapper span{
+    font-size: 14px;
+}

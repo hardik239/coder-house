@@ -1,0 +1,76 @@
+.roomCard{
+    background-color: var(--secondary-black);
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.roomCard:hover{
+    border-color: var(--blue);
+}
+
+.title{
+    font-size: 14px;
+    height: 60px;
+    width: 100%;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.speakersImages{
+    position: relative;
+    margin: 10px 0;
+}
+
+.speakersImages img{
+    width:40px;
+    height: 40px;
+    border: 2px solid rgb(169, 30, 169);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.836);
+}
+
+.speakersImages img:nth-child(2){
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    border: 2px solid rgb(21, 98, 182);
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.speakersList{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: rgb(232, 232, 232);
+}
+
+.speaker{
+    display: flex;
+    align-items: center;
+}
+
+.speakersList span{
+   margin-right: 8px; 
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer span{
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}

@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 150px);
+}
+
+.subHeading{
+    max-width: 350px;
+    margin: 30px auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(224, 221, 221, 0.836);
+    line-height: 1.5;
+}

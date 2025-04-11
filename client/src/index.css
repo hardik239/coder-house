@@ -1,0 +1,79 @@
+:root{
+  --primary-black: hsl(0, 7%, 4%);
+  --secondary-black: hsla(0, 0%, 20%, 0.285);
+  --blue: #0077ff;
+  --green:rgba(79, 238, 79, 0.819);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--primary-black);
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+.app-wrapper{
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.body-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 150px);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.inputWrapper{
+  width: 300px;
+  margin: 20px auto;
+}
+
+.errorMessage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  margin: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  color: red;
+}
+
+.modalErrorMessage{
+  display: inline-flex;
+  gap:5px;
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: 300;
+  color: red;
+}
+
+.error{
+  border: 1px solid red !important;
+  animation: shake 0.2s ease-in-out 0s 2;
+  box-shadow: 0 0 0.3em rgba(255, 0, 0, 0.364);
+}
+
+@keyframes shake {
+  0% { margin-left: 0rem; }
+  25% { margin-left: 0.5rem; }
+  75% { margin-left: -0.5rem; }
+  100% { margin-left: 0rem; }
+}

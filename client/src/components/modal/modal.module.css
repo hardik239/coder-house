@@ -1,0 +1,95 @@
+.modalWrapper{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.434);
+    z-index: 100;
+}
+
+.modal{
+    width: 70%;
+    max-width: 400px;
+    background-color:#222;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.body{
+    padding: 20px;
+}
+
+.modal h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal input{
+    width: 80%;
+    background: #333;
+    color: #fff;    
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.modal h5{
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.modal .roomTypes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.roomTypes .roomType{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.roomType.active{
+    background: #333;
+}
+
+.footer{
+    padding: 10px;
+    border-top: 1px solid #444;  
+    text-align: center;
+}
+
+.footer h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.footer button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(79, 238, 79, 0.819);
+    color: white;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold; 
+    margin: 10px auto;
+}

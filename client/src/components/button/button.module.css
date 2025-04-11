@@ -1,0 +1,21 @@
+.btn{
+    padding: 5px 15px;
+    background: var(--blue);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    width:max-content;
+}
+
+.btn img{
+    transition: transform 500ms ease;
+    margin-left: 5px;
+}
+
+.btn:hover img{
+    transform: translateX(5px);
+}
